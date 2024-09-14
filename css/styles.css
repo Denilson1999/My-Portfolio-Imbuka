@@ -234,7 +234,7 @@ body {
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
-    background-attachment: fixed; 
+    background-attachment: scroll; 
 }
 @media only screen and (max-width: 768px) {
     .row {
@@ -252,7 +252,7 @@ body {
     .profile-img {
         width: 100%;
     }
-    
+
     .download-cv {
         width: 100%;
         margin: 10px auto;
