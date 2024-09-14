@@ -6,8 +6,10 @@ ul.navbar-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: black;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar-ul li a {
@@ -18,8 +20,18 @@ ul.navbar-ul {
     text-decoration: none;
 }
 
-.navbar-ul li {
+/* .navbar-ul li {
     float: left;
+} */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
 }
 
 .navbar-ul li a:hover {
