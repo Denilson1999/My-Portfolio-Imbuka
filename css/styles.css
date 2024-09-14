@@ -34,8 +34,8 @@ ul.navbar-ul {
 }
 
 .image img {
-    width: 70%;
-    height: 70%;
+    width: auto%;
+    height: auto;
     margin-top: 10%;
     border-radius: 50%;
     border: 5px solid #3498db;
@@ -231,4 +231,18 @@ body {
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     background-position: center; /* Centers the image */
     background-attachment: fixed; /* Makes the background image fixed when scrolling */
+}
+@media only screen and (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .navbar-ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .profile-img {
+        width: 100%;
+    }
 }
