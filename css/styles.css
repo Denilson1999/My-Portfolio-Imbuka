@@ -252,6 +252,11 @@ body {
     .profile-img {
         width: 100%;
     }
+    
+    .download-cv {
+        width: 100%;
+        margin: 10px auto;
+    }
 }
 .profile h2 {
     font-size: 24px;
